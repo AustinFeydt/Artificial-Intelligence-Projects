@@ -1,0 +1,32 @@
+maxnodes 2000
+randomizestate 1
+printstate
+solve a-star h1
+randomizestate 1
+printstate
+solve a-star h2
+randomizestate 1
+printstate
+solve beam 10
+randomizestate 10
+printstate
+solve a-star h1
+randomizestate 10
+printstate
+solve a-star h2
+randomizestate 10
+printstate
+solve beam 10
+setState 312 645 b78
+printstate
+heuristicTest
+randomizestate 300
+maxnodes 3000
+solve a-star h1
+maxnodes 10000
+solve a-star h1
+solve beam 50
+setstate 1b3 245 678
+solve a-star h1
+solve a-star h2
+solve beam 50
